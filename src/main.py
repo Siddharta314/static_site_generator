@@ -12,7 +12,7 @@ def main():
     dest_path = "./public"
     safe_delete_directory(dest_path)
     copy_recursive_directory(src_path, dest_path)
-    generate_pages_recursive("content/", "template.html", "public/", base_path)
+    generate_pages_recursive("content/", "template.html", "docs/", base_path)
 
 
 if __name__ == "__main__":
